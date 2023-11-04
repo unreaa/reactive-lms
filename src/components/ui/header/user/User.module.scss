@@ -1,0 +1,19 @@
+@import '/src/variables.global.scss';
+
+
+.user {
+	font-size: 1.25rem;
+	font-weight: bold;
+	padding: 0.5rem;
+	border-radius: 18px;
+}
+
+.authorised:hover {
+	color: $text-color-alt;
+	background-color: $negative-color;
+}
+
+.unauthorised:hover {
+	color: $text-color-alt;
+	background-color: $accent-color;
+}

@@ -1,0 +1,15 @@
+@import '/src/variables.global.scss';
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1rem 0;
+	
+	.title {
+		padding: 0.5rem;
+		font-weight: 900;
+		font-size: 1.5rem;
+	}
+}
+

@@ -1,0 +1,47 @@
+@import "/src/variables.global.scss";
+
+.block {
+	display: flex;
+	align-items: center;
+	padding: 1rem 2rem;
+	color: $text-color-alt;
+	background-color: $text-color;
+	// border-radius: 20px;
+
+	.icon {
+		margin: 1rem;
+		width: 5rem;
+	}
+
+	.text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 2rem;
+		font-size: 1.25rem;
+
+		.name {
+			font-size: 1.5rem;
+			font-weight: bolder;
+			color: $accent-color;
+			.type {
+				font-size: 1rem;
+				font-weight: 600;
+				text-transform: lowercase;
+				color: $text-color;
+				background-color: $accent-color;
+				margin-left: 0.5rem;
+				padding: 0.2rem 0.4rem;
+				border-radius: 8px;
+			}
+		}
+
+		.desc {
+			margin-top: 0.5rem;
+		}
+	}
+
+	&:hover {
+		background-color: $light-color;
+	}
+}

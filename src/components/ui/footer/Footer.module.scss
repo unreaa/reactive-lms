@@ -1,0 +1,14 @@
+@import '/src/variables.global.scss';
+
+
+footer {
+	color: $text-color-alt;
+	background-color: $text-color;
+	text-align: center;
+	font-weight: bold;
+	padding: 3rem;
+	margin-top: 3rem;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	flex: 0 0 auto;
+}

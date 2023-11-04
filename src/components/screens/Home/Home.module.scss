@@ -1,0 +1,17 @@
+@import "/src/variables.global.scss";
+
+.headline {
+	margin-top: 4rem;
+	margin-left: 0.25rem;
+}
+
+.courses {
+	background-color: $text-color;
+	border-radius: 20px;
+	:first-child {
+		border-radius: 20px 20px 0 0;
+	}
+	:last-child {
+		border-radius: 0 0 20px 20px;
+	}
+}
