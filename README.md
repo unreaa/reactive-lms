@@ -1,9 +1,12 @@
-# React + Vite
+# Kvantorium Learning Management System
 
-This project provides a minimal setup for React-based lms.
+Kvantorium LMS based on React-ecosystem
 
-- Uses Vite for building
-- Uses YARN as package manager
-- Uses React for reactivity
-- Uses SASS for styling
-- Uses [Babel](https://babeljs.io/) for Fast Refresh
+## Features
+- Basic view
+- UI/UX
+- Get Data from Server
+- Authorisation
+- Adaptive Design
+- Admin Panel
+- Statistics
