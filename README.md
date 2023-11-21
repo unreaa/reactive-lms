@@ -1,4 +1,4 @@
-# Kvantorium Learning Management System
+# [Reacted] Kvantorium Learning Management System
 
 This project provides a minimal setup for pure React-based lms.
 
